@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500;700;900&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: poppins;
+    background-color: rgb(238, 238, 238);
+}
+
+h1 {
+
+    color: rgb(66, 107, 170);
+    font-size: 80px;
+}
+
+.container {
+    box-shadow: 0 4px 8px 0 rgba(66, 66, 66, 0.2);
+    width: 400px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+}
+
+.create {
+    text-align: center;
+}
+
+.create>p {
+    color: grey;
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: none;
+    margin: 7px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+}
+
+.username {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gender {
+    font-size: 16px;
+    color: grey;
+    margin-top: 10px;
+
+}
+
+#gender-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#gender-container>div {
+    border: none;
+    margin: 7px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+}
+
+input[type="radio"] {
+    margin-left: 27px;
+}
+
+form>p {
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    background-color: rgb(26, 179, 26);
+    color: white;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+form > div > p{
+    text-align: center;
+    color: rgb(66, 107, 170);
+    font-size: 18px;
+}
+

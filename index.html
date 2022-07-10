@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+    <link href="./main.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>facebook</h1>
+    <div class="container">
+        <div class="create">
+            <h2>Create a new account</h2>
+            <p>It's quick and easy.</p>
+        </div>
+        <form>
+            <div class="username">
+                <input type="text" placeholder="First name" name="first-name" />
+                <input type="text" placeholder="Surname" name="surname" />
+            </div>
+            <input type="text" placeholder="Mobile number or email address" name="email" />
+            <input type="password" placeholder="Password" name="password" />
+            <lable class="gender">Gender</lable>
+            <div id="gender-container">
+                <div>
+                    <label>Male</label>
+                    <input type="radio" name="gender" value="Male" />
+                </div>
+                <div>
+                    <label>Female</label>
+                    <input type="radio" name="gender" value="Female" />
+                </div>
+                <div>
+                    <label>Custom</label>
+                    <input type="radio" name="gender" value="Custom" />
+                </div>
+            </div>
+            <p>People who use our service may have uploaded your contact information to Facebook</p>
+            <p>By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS
+                notifications from us and can opt out at any time.</p>
+            <div class="button">
+                <button>Sign Up</button>
+            </div>
+            <div>
+                <p>Already have an account?</p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
