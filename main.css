@@ -50,6 +50,7 @@ input {
     padding: 10px;
     border-radius: 5px;
     border: 2px solid lightgray;
+    font-size: 14px;
 }
 
 .username {
@@ -61,7 +62,6 @@ input {
     font-size: 16px;
     color: grey;
     margin-top: 10px;
-
 }
 
 #gender-container {
@@ -107,6 +107,5 @@ button {
 form > div > p{
     text-align: center;
     color: rgb(66, 107, 170);
-    font-size: 18px;
 }
 
